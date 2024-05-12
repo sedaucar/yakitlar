@@ -4550,7 +4550,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Behaviors.DragnDrop.Cnds.OnDrop,
 		C3.Plugins.Sprite.Cnds.IsOverlapping,
 		C3.Plugins.Sprite.Cnds.IsBoolInstanceVarSet,
-		C3.Behaviors.Pin.Acts.PinByImagePoint,
+		C3.Behaviors.Pin.Acts.PinByProperties,
 		C3.Plugins.Sprite.Acts.Spawn,
 		C3.Plugins.System.Acts.AddVar,
 		C3.Plugins.Sprite.Acts.SetBoolInstanceVar,
@@ -4804,7 +4804,7 @@ self.C3_ExpressionFuncs = [
 		() => "deneeee",
 		() => "tebriiik",
 		() => 5,
-		() => 0.5,
+		() => 0.3,
 		() => 4,
 		() => 450,
 		() => 342,
@@ -4832,7 +4832,7 @@ self.C3_ExpressionFuncs = [
 		() => 1459,
 		() => 745,
 		() => 11,
-		() => 10
+		() => 12
 ];
 
 
